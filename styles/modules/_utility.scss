@@ -1,0 +1,153 @@
+
+$Cbase: rgb(75, 75, 75);
+$cTitle:rgb(94, 74, 38);
+
+h1, h2, p {
+    margin: 0;
+}
+
+// html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
+
+.ft-sm {
+    font-size: 1em;
+}
+.ft-md {
+    font-size: 1.2em;
+}
+.ft-lg {
+    font-size: 1.8em;
+}
+
+// それぞれのセクションのinner
+.Main-inner {
+    width: 85%;
+    height: 95%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+// 背景１
+.Main-Bg1n {
+    background: -moz-linear-gradient(left, rgb(231, 212, 186) 30%, rgb(231, 218, 198));
+    background: -webkit-linear-gradient(left, rgb(231, 212, 186) 30%, rgb(231, 218, 198));
+    background: linear-gradient(to right, rgb(231, 212, 186) 20%, rgb(231, 218, 198));
+    transform-style: preserve-3d;
+    perspective: 3000px;
+}
+// 背景２
+.Main-Bg2n {
+    background: -moz-linear-gradient(left, rgb(231, 218, 198) 20%, rgb(231, 212, 186));
+    background: -webkit-linear-gradient(left, rgb(231, 218, 198) 20%, rgb(231, 212, 186));
+    background: linear-gradient(to right, rgb(231, 218, 198) 20%, rgb(231, 212, 186));
+    transform-style: preserve-3d;
+    perspective: 3000px;
+}
+
+// それぞれのh1
+.styleh1 {
+    margin: 0;
+    text-align: center;
+    @extend .ft-lg;
+    letter-spacing: 2px;
+    color: rgb(94, 74, 38);
+}
+
+
+//  Skillのブロック
+
+// .Boxの大きさ
+.eachBox {
+    height: 25%;
+    width: 100%;
+    margin-bottom: 70px;
+    opacity: 0;
+}
+
+// ロゴ
+.eachLogo {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+// 文章
+.eachP {
+    width: 90%;
+    @extend .ft-sm;
+    color: $Cbase;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+// ゲージコンテナ
+.eachBlock {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+// ゲージ
+.eachGage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+// ゲージ状態
+.Gcolor {
+    height: 33px;
+    opacity: 0;
+}
+
+
+// Worksのブロック
+
+// 画像
+.W-img {
+    position: relative;
+    @extend .eachLogo;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+//imgのafter
+.img-A {
+    content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-color: rgba(0, 18, 36, 0.753);
+                            opacity: 0;
+}
+
+// Contactのブロック
+
+.formBlock {
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+}

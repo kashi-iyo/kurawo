@@ -1,0 +1,102 @@
+
+
+// header
+#global-container {
+    & #container {
+        position: absolute;
+        width: 85%;
+        right: 0;
+       & .header {
+            height: 100vh;
+            width: 15%;
+            background: rgb(0, 36, 36);
+            &__inner {
+                &__left {
+                    width: 90%;
+                    height: 20%;
+                    margin: 0 auto;
+                    & .Myname {
+                        letter-spacing: 1px;
+                        line-height: 1.2;
+                        font-size: 0.6em;
+                        margin: 0 auto;
+                        margin-top: 30px;
+                        padding-left: 10px;
+                        width: 90%;
+                        & h1 {
+                            overflow-wrap: break-word;
+                            word-wrap: break-word;
+                        }
+                    }
+                }
+                &__right {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// トップ画面
+#global-container {
+    & #container {
+        & .Area__Top {
+            padding: 0;
+        }
+    }
+}
+
+.Box1, .Box2, .Box3 {
+    display: flex;
+    justify-content: center;
+    & .Skill-Logo1, .Skill-Logo2, .Skill-Logo3 {
+        width: 1.5em;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    & .Wrap {
+        width: 50%;
+        margin-left: 30px;
+    }
+}
+.Box3 {
+    & .Wrap {
+        position: relative;
+        left: 20px;
+    }
+}
+
+// サイドバー
+.mobile-menu {
+    z-index: 200;
+    left: 0px;
+    top: 200px;
+    width: 15%;
+    & .mm-inner {
+        & .mm-ul {
+            opacity: 1;
+            height: 50px;
+            width: 100%;
+            & li {
+                font-size: 1.4em;
+                &:hover {
+                    transform: translate3d(5px, -5px, 150px);
+                   background-color: unset;
+                   color: $cTitle;
+                   letter-spacing: 2px;
+                   border-left: 3px solid $cTitle;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    & .inner {
+        & #social-icon {
+            right: 0;
+            width: 80%;
+        }
+    }
+}

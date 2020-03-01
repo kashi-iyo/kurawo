@@ -1,0 +1,314 @@
+// TopInnerアニメーション
+.intersected {
+    & .Area__Top__Inner {
+        @include animation (
+        $name: kf-animate,
+        $duration: 2s,
+        $timing-function: ease-in-out,
+        );
+        &::after {
+            @include animation (
+            $name: kf-after,
+            $duration: 3.5s,
+            $timing-function: ease-in-out,
+            );
+        }
+        & .h1 {
+            @include animation (
+            $name: kf-h1,
+            $timing-function: ease-in-out,
+            $delay: 3s,
+            $duration: 2s,
+            );
+        }
+    }
+}
+
+@keyframes kf-animate {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes kf-after {
+    0% {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+    50% {
+       
+        opacity: 0.5;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes kf-h1 {
+    0% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+// Profのアニメーション
+.intersected {
+    & .Prof-h1 {
+        @include animation(
+        $name: kf-Main,
+        $delay: 0.1s,
+        $timing-function: ease-in-out,
+        );
+    }
+    & .Prof-img {
+        @include animation(
+        $name: kf-Main,
+        $delay: 0.3s,
+        $timing-function: ease-in-out,
+        );
+    }
+    & .Prof-p {
+        @include animation(
+        $name: kf-Main,
+        $delay: 0.5s,
+        $timing-function: ease-in-out,
+        )
+    }
+}
+
+// Skillのアニメーション
+.intersected {
+        & .Skill-h1 {
+            @include animation(
+            $name: kf-Main,
+            $delay: 0s,
+            $timing-function: ease-in-out,
+            );
+        }
+}
+ .Box1 {
+     &.intersected {
+         @include animation(
+         $name: kf-Main,
+         $delay: 0.5s,
+         $timing-function: ease-in-out,
+         );
+         & .Skill-block1 {
+             & .Skill-gage {
+                 @include animation (
+                     $name: kf-gage,
+                     $timing-function: ease-out,
+                     $delay: 1s,
+                     $duration: 2s,
+                 );
+                 & span {
+                    @include animation(
+                    $name: kf-span,
+                    $delay: 3s,
+                    $fill-mode: both,
+                    );
+                }
+             }
+         }
+    }
+}
+ .Box2 {
+     &.intersected {
+         @include animation(
+         $name: kf-Main,
+         $delay: 0.5s,
+         $timing-function: ease-in-out,
+         );
+         & .Skill-block2 {
+             & .Skill-gage {
+                 @include animation (
+                     $name: kf-gage,
+                     $timing-function: ease-out,
+                     $delay: 1s,
+                     $duration: 2s,
+                 );
+                 & span {
+                    @include animation(
+                    $name: kf-span,
+                    $delay: 3s,
+                    $fill-mode: forwards,
+                    );
+                }
+             }
+         }
+    }
+}
+ .Box3 {
+     &.intersected {
+         @include animation(
+         $name: kf-Main,
+         $delay: 0.5s,
+         $timing-function: ease-in-out,
+         );
+         & .Skill-block3 {
+             & .Skill-gage {
+                 @include animation (
+                     $name: kf-gage,
+                     $timing-function: ease-out,
+                     $delay: 1s,
+                     $duration: 2s,
+                 );
+                 & span {
+                    @include animation(
+                    $name: kf-span,
+                    $delay: 3s,
+                    $fill-mode: both,
+                    );
+                }
+             }
+         }
+    }
+}
+
+// Worksのアニメーション
+.Works-inner {
+    &.intersected {
+        & .Works-h1 {
+            @include animation (
+                $name: kf-Main,
+                $delay: 0.2s,
+                $timing-function: ease-in-out,
+            );
+        }
+        & .Works-P {
+            @include animation (
+                $name: kf-Main,
+                $delay: 0.5s,
+                $timing-function: ease-in-out,
+            );
+        }
+    }
+}
+.Works-img, .Works-img2, .Works-img3 {
+    transition: all 0.2s ease-in-out;
+    &.intersected {
+        &:hover {
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+        }
+        & .Works-cover {
+            @include animation(
+                $name: kf-cover,
+                $duration: 1s,
+                $delay: 0.7s,
+                $timing-function: ease-in-out,
+            );
+            &::after {
+                content: 'Click Here!';
+                color: white;
+                position: absolute;
+                top: 45%;
+                left: 20%;
+            }
+        }
+    }
+}
+
+// 全てのinnerのkf
+@keyframes kf-Main {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+// Skillのgageのkf
+@keyframes kf-gage {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+// Skillのgageの中の文字のkf
+@keyframes kf-span {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+// WorksのPortfolio内のカバーアニメ
+@keyframes kf-cover {
+    0% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+// モバイルメニューのアニメーション
+.open {
+    & #container {
+        position: relative;
+        transform: translateX(-230px);
+        border-right: 2px solid white;
+        transition: all 0.7s ease-in-out;
+        & .header {
+            & span {
+                &:nth-child(1) {
+                    transform: translateY(9px) rotate(45deg);
+                }
+                &:nth-child(2) {
+                    transform: translateX(-20px);
+                    opacity: 0
+                }
+                &:nth-child(3) {
+                    transform: translateY(-9px) rotate(135deg);
+                }
+            }
+        }
+    }
+    & .mobile-menu {
+        & .mm-inner {
+            & .mm-ul {
+                transform: none;
+                transition: transform 0.7s, opacity 0.6s;
+                opacity: 1;
+                @for $i from 1 through 5 {
+                    &:nth-child(#{$i}) {
+                        transition-delay: $i * 0.07s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#global-container {
+    &.open {
+        & #container {
+            & .container-cover {
+                opacity: 1;
+                visibility: visible;
+                cursor: pointer;
+            }
+        }
+    }
+}

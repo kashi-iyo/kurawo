@@ -1,0 +1,559 @@
+
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+// header/Topのブロック
+#global-container {
+    background-color: rgb(0, 36, 36);
+    & #container {
+        transition: all 0.5s ease-in-out;
+        & .container-cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 400;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.733);
+            opacity: 1;
+            transition: opacity 1s;
+            visibility: hidden;
+        }
+        & .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 200;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(to right, rgba(155, 47, 119, 0.37) 10%, rgba(144, 161, 184, 0.274));
+            &__inner {
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                &__left {
+                    position: relative;
+                    width: 50%;
+                    height: 100%;
+                    margin: 0 auto;
+                    margin-left: 30px;
+                    box-sizing: border-box;
+                    & .Myname {
+                        font-size: 0.7em;
+                        position: absolute;
+                        top: 9px;
+                        letter-spacing: 5px;
+                        line-height: 1.4;
+                        margin: 0;
+                        height: 60%;
+                        color: rgb(255, 255, 255);
+                        & a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                        & h1 {
+                            margin: 0;
+                        }
+                    }
+                }
+                &__right {
+                    position: relative;
+                    height: 90%;
+                    width: 20%;
+                    margin: 5px;
+                    margin-left: auto;
+                    & .mobilemenu-btn {
+                        position: absolute;
+                        right: 10%;
+                        top: 25%;
+                        padding: 0 2px;
+                        height: 50%;
+                        width: 50%;
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        outline: none;
+                        & span {
+                            display: block;
+                            width: 30px;
+                            height: 2px;
+                            background-color: rgb(255, 255, 255);
+                            margin-bottom: 7px;
+                            transition: all 0.5s ease-in-out;
+                            &:nth-child(3) {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .Area__Top {
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            padding-top: 80px;
+            background-color: rgba(0, 18, 36, 0.548);
+            transform-style: preserve-3d;
+            perspective: 3000px;
+            &__Inner {
+                position: relative;
+                background-image: url("../img/P-book3.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                width: 100%;
+                opacity: 0.5;
+                transition: all 0.5s ease-in-out;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left:0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(18, 24, 56, 0.664);
+                    opacity: 0;
+                }
+                & .h1 {
+                    @extend .ft-lg;
+                    position: relative;
+                    z-index: 1;
+                    width: 90%;
+                    white-space: pre-line;
+                    margin: 0;
+                    color: white;
+                    padding-top: 320px;
+                    padding-left: 30px;
+                    letter-spacing: 10px;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+// Profのブロック
+#global-container {
+    & #container {
+        & .Area__Main {
+            width: 100%;
+            padding-top: 110vh;
+            position: relative;
+            z-index: 2;
+            &__Prof {
+                height: 150vh;
+                @extend .Main-Bg1n;
+                & .Prof-inner {
+                    @extend .Main-inner;
+                    text-align: center;
+                    & .Prof-h1 {
+                        @extend .ft-lg;
+                        letter-spacing: 2px;
+                        color: rgb(94, 74, 38);
+                        opacity: 0;
+                        margin: 0;
+                        margin-bottom: 50px;
+                    }
+                    & .Prof-img {
+                        background-image: url("../img/kurawo.jpg");
+                        background-position: center center;
+                        background-size: cover;
+                        border-radius: 50%;
+                        height: 120px;
+                        width: 120px;
+                        opacity: 0;
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+                    & .Prof-p {
+                        @extend .ft-sm;
+                        color: $Cbase;
+                        font-weight: 700;
+                        letter-spacing: 4px;
+                        line-height: 1.7;
+                        white-space: pre-line;
+                        opacity: 0;
+                        margin-bottom: 30px;
+                        & a {
+                            color: rgb(108, 160, 202);
+                        }
+                        & strong {
+                            @extend .ft-md;
+                            color: $cTitle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Skillのブロック
+
+// Main-Skill
+#global-container {
+    & #container {
+        & .Area__Main {
+            &__Skill {
+                height: 150vh;
+                @extend .Main-Bg2n;
+                 & .Skill-inner {
+                    @extend .Main-inner;
+                    & .Skill-h1 {
+                        @extend .styleh1;
+                        opacity: 0;
+                    }
+                    & .Skill-Box {
+                        height: 90%;
+                        width: 100%;
+                        padding-top: 100px;
+                        & span {
+                            padding-left: 5px;
+                            font-size: 0.9em;
+                            color: white;
+                            opacity: 0;
+                        }
+                        & .Box1 {
+                            @extend .eachBox;
+                            & .Skill-Logo1 {
+                                background-image: url("../img/html.png");
+                                @extend .eachLogo;
+                            }
+                            & .Skill-p1 {
+                            @extend .eachP;
+                            }
+                            & .Skill-block1 {
+                                @extend .eachBlock;
+                                & .Skill-base, .Skill-gage {
+                                    @extend .eachGage;
+                                }
+                                & .Skill-gage {
+                                    @extend .Gcolor;
+                                    width: 80%;
+                                    background-color: rgb(255, 94, 0);
+
+                                }
+                            }
+                        }
+                        & .Box2 {
+                            @extend .eachBox;
+                            & .Skill-Logo2 {
+                                background-image: url("../img/css.svg");
+                                height: 100px;
+                                width: 110px;
+                                @extend .eachLogo;
+                            }
+                            & .Skill-p2 {
+                            @extend .eachP;
+                            }
+                            & .Skill-block2 {
+                                @extend .eachBlock;
+                                & .Skill-base, .Skill-gage {
+                                    @extend .eachGage;
+                                }
+                                & .Skill-gage {
+                                    @extend .Gcolor;
+                                    width: 75%;
+                                    background-color: rgb(47, 143, 226);
+                                }
+                            }
+                        }
+                        & .Box3 {
+                            @extend .eachBox;
+                            margin-bottom: 0px;
+                            & .Skill-Logo3 {
+                                background-image: url("../img/JS.svg");
+                                @extend .eachLogo;
+                                width: 70px;
+                                height: 100px;
+                            }
+                            & .Skill-p3 {
+                            @extend .eachP;
+                            }
+                            & .Skill-block3 {
+                                @extend .eachBlock;
+                                & .Skill-base, .Skill-gage {
+                                    @extend .eachGage;
+                                }
+                                & .Skill-gage {
+                                    width: 50%;
+                                    @extend .Gcolor;
+                                    background-color: rgb(253, 196, 72);
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+
+// Worksのブロック
+
+// Main-Works
+.Area__Main__Works {
+    @extend .Main-Bg1n;
+    // height: auto;
+    padding-bottom: 100px;
+    & .Works-inner {
+        @extend .Main-inner;
+        & .Works-h1 {
+            @extend .styleh1;
+            opacity: 0;
+            margin-bottom: 50px;
+        }
+        & .Works-P {
+            opacity: 0;
+            background-color: transparent;
+            width: 90%;
+            margin: 0 auto;
+            @extend .ft-md;
+            color: $cTitle;
+            cursor: pointer;
+            letter-spacing: 0.05em;
+            padding: 0.2em 1em;
+            border-radius: 3px;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+            -webkit-tap-highlight-color: transparent;
+            transform-style: preserve-3d;
+            perspective: 3000px;
+            & .img-Box {
+                margin: 0;
+                display: none;
+                position: relative;
+                background-color: white;
+                width: 100%;
+                height: 35vh;
+                margin: 10px 0;
+                overflow: scroll;
+                border: 2px solid $cTitle;
+                box-shadow:0px 0px 8px 5px rgb(158, 158, 158) inset;
+                & .scroll {
+                    position: absolute;
+                    top: 5%;
+                    right: 2.5%;
+                    width: 1.3em;
+                } 
+                & .img-inner {
+                    width: 85%;
+                    height: 90%;
+                    margin: 0;
+                    margin: 15px 10px;
+                    overflow: hidden;
+                    background-color: gray;
+                    & .Works-img {
+                        background-image: url("../img/portfoli-home.png");
+                        @extend .W-img;
+                        margin: 0;
+                        & .Works-cover {
+                            @extend .img-A;
+                        }
+                    }
+                    & .Works-img2 {
+                        background-image: url("../img/P-book.jpg");
+                        @extend .W-img;
+                        margin: 0;
+                        & .Works-cover {
+                            @extend .img-A;
+                        }
+                    }
+                    & .Works-img3 {
+                        background-image: url("../img/P-book2.jpg");
+                        @extend .W-img;
+                        margin: 0;
+                        & .Works-cover {
+                            @extend .img-A;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Contactのブロック
+
+.Area__Main__Contact {
+    @extend .Main-Bg2n;
+    height: 80vh;
+    & .Contact__inner {
+        @extend .Main-inner;
+        text-align: center;
+        height: 90%;
+        & .Contact-h1 {
+            @extend .styleh1;
+            margin-bottom: 50px;
+        }
+        & .p {
+            @extend .ft-sm;
+            color: $Cbase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            white-space: nowrap;
+            margin-bottom: 30px;
+        }
+        & form {
+            height: 20%;
+            & .name {
+                @extend .formBlock;
+                & #name {
+                @extend .form;
+                }
+            }
+            & .email {
+                @extend .formBlock;
+                margin-bottom: 30px;
+                & #email {
+                    @extend .form;
+                    }
+            }
+            & .message {
+                @extend .formBlock;
+                margin-bottom: 30px;
+                height: 70%;
+                & #message {
+                    @extend .form;
+                    padding-top: 5px;
+                    }
+            }
+            & input[type="submit"] {
+                @extend .form;
+                background-color: white;
+                height: 40%;
+                width: 40%;
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+            }
+            & input[value="送信"] {
+                letter-spacing: 10px;
+                font-size: 0.9em;
+                font-weight: 600;
+                color: rgb(32, 32, 32);
+            }
+        }
+    }
+}
+
+// フッター
+footer {
+    position: relative;
+    bottom: 0;
+    z-index: 300;
+    width: 100vw;
+    & .inner {
+        text-align: center;
+        height: 20vh;
+        background-color: rgb(0, 36, 36);
+        & #social-icon {
+            padding-left: 15%;
+            padding-top: 10%;
+            width: 300px;
+            & a {
+                display: block;
+                float: left;
+                margin: 0 5px 5px 0;
+                padding: 0;
+                color: #c6bb80;
+                margin-left: 5px;
+            }
+            & i {
+                width: 50px;
+                height: 50px;
+                margin: 0;
+                border: 1px solid #c6bb80;
+                border-radius: 50%;
+                line-height: 50px;
+                text-align: center;
+            }
+            & i:before {
+                padding: 0;
+                line-height: 50px; 
+            }
+            & a:hover i {
+                background: #e1daba;
+            }
+        }
+        & .p {
+        font-size: 0.7em;
+        color: white;
+        }
+    }
+}
+
+// モバイルメニュー
+.mobile-menu {
+    position: fixed;
+    z-index: 0;
+    top: 40px;
+    right: 0px;
+    list-style: none;
+    width: 200px;
+    height: 300px;
+    & .mm-inner {
+        width: 100%;
+        height: 100%;
+        perspective: 2000px;
+        transform-style: preserve-3d;
+        & .mm-ul {
+            cursor: pointer;
+            height: 40px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            padding: 0;
+            transform: translate3d(-20px, 10px, -1000px);
+            transition: transform 0.5s, opacity 0.2s;
+            opacity: 0;
+            & a {
+                text-decoration: none;
+            }
+            & li {
+                display: block;
+                text-align: center;
+                list-style: none;
+                font-size: 1.5em;
+                font-weight: 800;
+                color: white;
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+                &:hover {
+                    transform: translate3d(-20px, 0, 150px);
+                    transition: all 0.4s ease-in-out;
+                    transition-duration: 0.6s;
+                    background-color: white;
+                    color: rgb(27, 27, 27);
+                    
+                }
+            }
+        }
+    }
+}
+
+// スクロールボタン
+.Scrollbtn {
+    position: fixed;
+    z-index: 500;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    height: 50px; 
+    background-color: rgb(0, 36, 36);
+    cursor: pointer;
+    & .p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.4em;
+        color: $cTitle;
+    }
+}

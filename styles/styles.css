@@ -1,0 +1,1341 @@
+@charset "UTF-8";
+html {
+  font-family: "Odibee Sans", "Noto Serif JP", "Kosugi", "Open Sans";
+}
+
+.intersected .Area__Top__Inner {
+  -webkit-animation-name: kf-animate;
+          animation-name: kf-animate;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.intersected .Area__Top__Inner::after {
+  -webkit-animation-name: kf-after;
+          animation-name: kf-after;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.intersected .Area__Top__Inner .h1 {
+  -webkit-animation-name: kf-h1;
+          animation-name: kf-h1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes kf-animate {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes kf-animate {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes kf-after {
+  0% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes kf-after {
+  0% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes kf-h1 {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes kf-h1 {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+.intersected .Prof-h1 {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.intersected .Prof-img {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.intersected .Prof-p {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.intersected .Skill-h1 {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box1.intersected {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box1.intersected .Skill-block1 .Skill-gage {
+  -webkit-animation-name: kf-gage;
+          animation-name: kf-gage;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box1.intersected .Skill-block1 .Skill-gage span {
+  -webkit-animation-name: kf-span;
+          animation-name: kf-span;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.Box2.intersected {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box2.intersected .Skill-block2 .Skill-gage {
+  -webkit-animation-name: kf-gage;
+          animation-name: kf-gage;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box2.intersected .Skill-block2 .Skill-gage span {
+  -webkit-animation-name: kf-span;
+          animation-name: kf-span;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box3.intersected {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box3.intersected .Skill-block3 .Skill-gage {
+  -webkit-animation-name: kf-gage;
+          animation-name: kf-gage;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Box3.intersected .Skill-block3 .Skill-gage span {
+  -webkit-animation-name: kf-span;
+          animation-name: kf-span;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.Works-inner.intersected .Works-h1 {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Works-inner.intersected .Works-P {
+  -webkit-animation-name: kf-Main;
+          animation-name: kf-Main;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Works-img, .Works-img2, .Works-img3 {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.Works-img.intersected:hover, .Works-img2.intersected:hover, .Works-img3.intersected:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.Works-img.intersected .Works-cover, .Works-img2.intersected .Works-cover, .Works-img3.intersected .Works-cover {
+  -webkit-animation-name: kf-cover;
+          animation-name: kf-cover;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.Works-img.intersected .Works-cover::after, .Works-img2.intersected .Works-cover::after, .Works-img3.intersected .Works-cover::after {
+  content: 'Click Here!';
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+@-webkit-keyframes kf-Main {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes kf-Main {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes kf-gage {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes kf-gage {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes kf-span {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes kf-span {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes kf-cover {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes kf-cover {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+.open #container {
+  position: relative;
+  -webkit-transform: translateX(-230px);
+          transform: translateX(-230px);
+  border-right: 2px solid white;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.open #container .header span:nth-child(1) {
+  -webkit-transform: translateY(9px) rotate(45deg);
+          transform: translateY(9px) rotate(45deg);
+}
+
+.open #container .header span:nth-child(2) {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  opacity: 0;
+}
+
+.open #container .header span:nth-child(3) {
+  -webkit-transform: translateY(-9px) rotate(135deg);
+          transform: translateY(-9px) rotate(135deg);
+}
+
+.open .mobile-menu .mm-inner .mm-ul {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: opacity 0.6s, -webkit-transform 0.7s;
+  transition: opacity 0.6s, -webkit-transform 0.7s;
+  transition: transform 0.7s, opacity 0.6s;
+  transition: transform 0.7s, opacity 0.6s, -webkit-transform 0.7s;
+  opacity: 1;
+}
+
+.open .mobile-menu .mm-inner .mm-ul:nth-child(1) {
+  -webkit-transition-delay: 0.07s;
+          transition-delay: 0.07s;
+}
+
+.open .mobile-menu .mm-inner .mm-ul:nth-child(2) {
+  -webkit-transition-delay: 0.14s;
+          transition-delay: 0.14s;
+}
+
+.open .mobile-menu .mm-inner .mm-ul:nth-child(3) {
+  -webkit-transition-delay: 0.21s;
+          transition-delay: 0.21s;
+}
+
+.open .mobile-menu .mm-inner .mm-ul:nth-child(4) {
+  -webkit-transition-delay: 0.28s;
+          transition-delay: 0.28s;
+}
+
+.open .mobile-menu .mm-inner .mm-ul:nth-child(5) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+#global-container.open #container .container-cover {
+  opacity: 1;
+  visibility: visible;
+  cursor: pointer;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.ft-sm, .eachP, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-p1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-p2, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-p3, #global-container #container .Area__Main__Prof .Prof-inner .Prof-p, .Area__Main__Contact .Contact__inner .p {
+  font-size: 1em;
+}
+
+.ft-md, #global-container #container .Area__Main__Prof .Prof-inner .Prof-p strong, .Area__Main__Works .Works-inner .Works-P {
+  font-size: 1.2em;
+}
+
+.ft-lg, .styleh1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-h1, .Area__Main__Works .Works-inner .Works-h1, .Area__Main__Contact .Contact__inner .Contact-h1, #global-container #container .Area__Top__Inner .h1, #global-container #container .Area__Main__Prof .Prof-inner .Prof-h1 {
+  font-size: 1.8em;
+}
+
+.Main-inner, #global-container #container .Area__Main__Prof .Prof-inner, #global-container #container .Area__Main__Skill .Skill-inner, .Area__Main__Works .Works-inner, .Area__Main__Contact .Contact__inner {
+  width: 85%;
+  height: 95%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.Main-Bg1n, #global-container #container .Area__Main__Prof, .Area__Main__Works {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #e7d4ba), to(#e7dac6));
+  background: linear-gradient(to right, #e7d4ba 20%, #e7dac6);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 3000px;
+          perspective: 3000px;
+}
+
+.Main-Bg2n, #global-container #container .Area__Main__Skill, .Area__Main__Contact {
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #e7dac6), to(#e7d4ba));
+  background: linear-gradient(to right, #e7dac6 20%, #e7d4ba);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 3000px;
+          perspective: 3000px;
+}
+
+.styleh1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-h1, .Area__Main__Works .Works-inner .Works-h1, .Area__Main__Contact .Contact__inner .Contact-h1 {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #5e4a26;
+}
+
+.eachBox, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 {
+  height: 25%;
+  width: 100%;
+  margin-bottom: 70px;
+  opacity: 0;
+}
+
+.eachLogo, .W-img, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img2, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img3, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-Logo1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-Logo2, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-Logo3 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.eachP, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-p1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-p2, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-p3 {
+  width: 90%;
+  color: #4b4b4b;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.eachBlock, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-block1, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-block2, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-block3 {
+  position: relative;
+  width: 250px;
+  height: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eachGage, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-block1 .Skill-base, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-block1 .Skill-gage, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-block2 .Skill-base, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-block2 .Skill-gage, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-block3 .Skill-base, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-block3 .Skill-gage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+
+.Gcolor, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-block1 .Skill-gage, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-block2 .Skill-gage, #global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-block3 .Skill-gage {
+  height: 33px;
+  opacity: 0;
+}
+
+.W-img, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img2, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.img-A, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img .Works-cover, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img2 .Works-cover, .Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img3 .Works-cover {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 18, 36, 0.753);
+  opacity: 0;
+}
+
+.formBlock, .Area__Main__Contact .Contact__inner form .name, .Area__Main__Contact .Contact__inner form .email, .Area__Main__Contact .Contact__inner form .message {
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.form, .Area__Main__Contact .Contact__inner form .name #name, .Area__Main__Contact .Contact__inner form .email #email, .Area__Main__Contact .Contact__inner form .message #message, .Area__Main__Contact .Contact__inner form input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+#global-container {
+  background-color: #002424;
+}
+
+#global-container #container {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#global-container #container .container-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 400;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+  opacity: 1;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+}
+
+#global-container #container .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  height: 80px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(155, 47, 119, 0.37)), to(rgba(144, 161, 184, 0.274)));
+  background: linear-gradient(to right, rgba(155, 47, 119, 0.37) 10%, rgba(144, 161, 184, 0.274));
+}
+
+#global-container #container .header__inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#global-container #container .header__inner__left {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#global-container #container .header__inner__left .Myname {
+  font-size: 0.7em;
+  position: absolute;
+  top: 9px;
+  letter-spacing: 5px;
+  line-height: 1.4;
+  margin: 0;
+  height: 60%;
+  color: white;
+}
+
+#global-container #container .header__inner__left .Myname a {
+  text-decoration: none;
+  color: white;
+}
+
+#global-container #container .header__inner__left .Myname h1 {
+  margin: 0;
+}
+
+#global-container #container .header__inner__right {
+  position: relative;
+  height: 90%;
+  width: 20%;
+  margin: 5px;
+  margin-left: auto;
+}
+
+#global-container #container .header__inner__right .mobilemenu-btn {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  padding: 0 2px;
+  height: 50%;
+  width: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+#global-container #container .header__inner__right .mobilemenu-btn span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 7px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#global-container #container .header__inner__right .mobilemenu-btn span:nth-child(3) {
+  margin: 0;
+}
+
+#global-container #container .Area__Top {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  background-color: rgba(0, 18, 36, 0.548);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 3000px;
+          perspective: 3000px;
+}
+
+#global-container #container .Area__Top__Inner {
+  position: relative;
+  background-image: url("../img/P-book3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#global-container #container .Area__Top__Inner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 24, 56, 0.664);
+  opacity: 0;
+}
+
+#global-container #container .Area__Top__Inner .h1 {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  white-space: pre-line;
+  margin: 0;
+  color: white;
+  padding-top: 320px;
+  padding-left: 30px;
+  letter-spacing: 10px;
+  opacity: 0;
+}
+
+#global-container #container .Area__Main {
+  width: 100%;
+  padding-top: 110vh;
+  position: relative;
+  z-index: 2;
+}
+
+#global-container #container .Area__Main__Prof {
+  height: 150vh;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner {
+  text-align: center;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner .Prof-h1 {
+  letter-spacing: 2px;
+  color: #5e4a26;
+  opacity: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner .Prof-img {
+  background-image: url("../img/kurawo.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  opacity: 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner .Prof-p {
+  color: #4b4b4b;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1.7;
+  white-space: pre-line;
+  opacity: 0;
+  margin-bottom: 30px;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner .Prof-p a {
+  color: #6ca0ca;
+}
+
+#global-container #container .Area__Main__Prof .Prof-inner .Prof-p strong {
+  color: #5e4a26;
+}
+
+#global-container #container .Area__Main__Skill {
+  height: 150vh;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-h1 {
+  opacity: 0;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box {
+  height: 90%;
+  width: 100%;
+  padding-top: 100px;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box span {
+  padding-left: 5px;
+  font-size: 0.9em;
+  color: white;
+  opacity: 0;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-Logo1 {
+  background-image: url("../img/html.png");
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box1 .Skill-block1 .Skill-gage {
+  width: 80%;
+  background-color: #ff5e00;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-Logo2 {
+  background-image: url("../img/css.svg");
+  height: 100px;
+  width: 110px;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box2 .Skill-block2 .Skill-gage {
+  width: 75%;
+  background-color: #2f8fe2;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 {
+  margin-bottom: 0px;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-Logo3 {
+  background-image: url("../img/JS.svg");
+  width: 70px;
+  height: 100px;
+}
+
+#global-container #container .Area__Main__Skill .Skill-inner .Skill-Box .Box3 .Skill-block3 .Skill-gage {
+  width: 50%;
+  background-color: #fdc448;
+}
+
+.Area__Main__Works {
+  padding-bottom: 100px;
+}
+
+.Area__Main__Works .Works-inner .Works-h1 {
+  opacity: 0;
+  margin-bottom: 50px;
+}
+
+.Area__Main__Works .Works-inner .Works-P {
+  opacity: 0;
+  background-color: transparent;
+  width: 90%;
+  margin: 0 auto;
+  color: #5e4a26;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  padding: 0.2em 1em;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 3000px;
+          perspective: 3000px;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box {
+  margin: 0;
+  display: none;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 35vh;
+  margin: 10px 0;
+  overflow: scroll;
+  border: 2px solid #5e4a26;
+  -webkit-box-shadow: 0px 0px 8px 5px #9e9e9e inset;
+          box-shadow: 0px 0px 8px 5px #9e9e9e inset;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box .scroll {
+  position: absolute;
+  top: 5%;
+  right: 2.5%;
+  width: 1.3em;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box .img-inner {
+  width: 85%;
+  height: 90%;
+  margin: 0;
+  margin: 15px 10px;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img {
+  background-image: url("../img/portfoli-home.png");
+  margin: 0;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img2 {
+  background-image: url("../img/P-book.jpg");
+  margin: 0;
+}
+
+.Area__Main__Works .Works-inner .Works-P .img-Box .img-inner .Works-img3 {
+  background-image: url("../img/P-book2.jpg");
+  margin: 0;
+}
+
+.Area__Main__Contact {
+  height: 80vh;
+}
+
+.Area__Main__Contact .Contact__inner {
+  text-align: center;
+  height: 90%;
+}
+
+.Area__Main__Contact .Contact__inner .Contact-h1 {
+  margin-bottom: 50px;
+}
+
+.Area__Main__Contact .Contact__inner .p {
+  color: #4b4b4b;
+  font-weight: 700;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+.Area__Main__Contact .Contact__inner form {
+  height: 20%;
+}
+
+.Area__Main__Contact .Contact__inner form .email {
+  margin-bottom: 30px;
+}
+
+.Area__Main__Contact .Contact__inner form .message {
+  margin-bottom: 30px;
+  height: 70%;
+}
+
+.Area__Main__Contact .Contact__inner form .message #message {
+  padding-top: 5px;
+}
+
+.Area__Main__Contact .Contact__inner form input[type="submit"] {
+  background-color: white;
+  height: 40%;
+  width: 40%;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.Area__Main__Contact .Contact__inner form input[value="送信"] {
+  letter-spacing: 10px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #202020;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  z-index: 300;
+  width: 100vw;
+}
+
+footer .inner {
+  text-align: center;
+  height: 20vh;
+  background-color: #002424;
+}
+
+footer .inner #social-icon {
+  padding-left: 15%;
+  padding-top: 10%;
+  width: 300px;
+}
+
+footer .inner #social-icon a {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #c6bb80;
+  margin-left: 5px;
+}
+
+footer .inner #social-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border: 1px solid #c6bb80;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+}
+
+footer .inner #social-icon i:before {
+  padding: 0;
+  line-height: 50px;
+}
+
+footer .inner #social-icon a:hover i {
+  background: #e1daba;
+}
+
+footer .inner .p {
+  font-size: 0.7em;
+  color: white;
+}
+
+.mobile-menu {
+  position: fixed;
+  z-index: 0;
+  top: 40px;
+  right: 0px;
+  list-style: none;
+  width: 200px;
+  height: 300px;
+}
+
+.mobile-menu .mm-inner {
+  width: 100%;
+  height: 100%;
+  -webkit-perspective: 2000px;
+          perspective: 2000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.mobile-menu .mm-inner .mm-ul {
+  cursor: pointer;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0;
+  -webkit-transform: translate3d(-20px, 10px, -1000px);
+          transform: translate3d(-20px, 10px, -1000px);
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.5s;
+  transition: opacity 0.2s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.2s;
+  transition: transform 0.5s, opacity 0.2s, -webkit-transform 0.5s;
+  opacity: 0;
+}
+
+.mobile-menu .mm-inner .mm-ul a {
+  text-decoration: none;
+}
+
+.mobile-menu .mm-inner .mm-ul li {
+  display: block;
+  text-align: center;
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.mobile-menu .mm-inner .mm-ul li:hover {
+  -webkit-transform: translate3d(-20px, 0, 150px);
+          transform: translate3d(-20px, 0, 150px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  background-color: white;
+  color: #1b1b1b;
+}
+
+.Scrollbtn {
+  position: fixed;
+  z-index: 500;
+  bottom: 20px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #002424;
+  cursor: pointer;
+}
+
+.Scrollbtn .p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.4em;
+  color: #5e4a26;
+}
+
+@media (min-width: 480px) {
+  #global-container #container {
+    position: absolute;
+    width: 85%;
+    right: 0;
+  }
+  #global-container #container .header {
+    height: 100vh;
+    width: 15%;
+    background: #002424;
+  }
+  #global-container #container .header__inner__left {
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+  }
+  #global-container #container .header__inner__left .Myname {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 0.6em;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 90%;
+  }
+  #global-container #container .header__inner__left .Myname h1 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  #global-container #container .header__inner__right {
+    display: none;
+  }
+  #global-container #container .Area__Top {
+    padding: 0;
+  }
+  .Box1, .Box2, .Box3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Box1 .Skill-Logo1, .Box1 .Skill-Logo2, .Box1 .Skill-Logo3, .Box2 .Skill-Logo1, .Box2 .Skill-Logo2, .Box2 .Skill-Logo3, .Box3 .Skill-Logo1, .Box3 .Skill-Logo2, .Box3 .Skill-Logo3 {
+    width: 1.5em;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .Box1 .Wrap, .Box2 .Wrap, .Box3 .Wrap {
+    width: 50%;
+    margin-left: 30px;
+  }
+  .Box3 .Wrap {
+    position: relative;
+    left: 20px;
+  }
+  .mobile-menu {
+    z-index: 200;
+    left: 0px;
+    top: 200px;
+    width: 15%;
+  }
+  .mobile-menu .mm-inner .mm-ul {
+    opacity: 1;
+    height: 50px;
+    width: 100%;
+  }
+  .mobile-menu .mm-inner .mm-ul li {
+    font-size: 1.4em;
+  }
+  .mobile-menu .mm-inner .mm-ul li:hover {
+    -webkit-transform: translate3d(5px, -5px, 150px);
+            transform: translate3d(5px, -5px, 150px);
+    background-color: unset;
+    color: #5e4a26;
+    letter-spacing: 2px;
+    border-left: 3px solid #5e4a26;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .inner #social-icon {
+    right: 0;
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
